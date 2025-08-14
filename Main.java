@@ -17,6 +17,7 @@ public class Main extends Application{
         Font.loadFont(getClass().getResourceAsStream("/resources/fonts/Poppins-Black.ttf"), 14);
         Label label = new Label("Font test");
         
+        
         //루트 컨테이너
         StackPane root = new StackPane(label);
 
